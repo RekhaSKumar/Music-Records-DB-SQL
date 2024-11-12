@@ -28,35 +28,53 @@ Data Sources
 The SQL scripts in this project are designed to work with a music database containing the following tables:
 
 customer: Stores customer information.
+
 invoice: Contains invoice details related to purchases.
+
 invoice_line: Breaks down invoices into individual items.
+
 track: Provides details about available tracks.
+
 genre: Lists various music genres.
+
 artist: Contains information about artists.
+
 album: Connects tracks to albums.
+
 employee: Includes data on employees and their job titles.
+
 Technologies Used
 SQL: The main technology used for data querying and extraction.
+
 SQL Environment: This project is compatible with any SQL-based environment (e.g., MySQL, PostgreSQL).
 
 How to Use
 Clone or download the repository.
+
 Open the SQL scripts in your SQL editor or database management tool.
+
 Run the scripts against music database.
+
 Adjust table and column names as needed to match database schema.
 
 Expected Output
 By running the scripts, we can expect the following outputs:
 
 Lists of top customers, artists, and cities with high sales performance.
+
 Insights into the most popular genres by country.
+
 Detailed employee data for organizational analysis.
+
 A breakdown of tracks that are longer than the average duration.
 
 Potential Applications
 Marketing Strategy: Utilize insights to target high-value customers and focus marketing efforts on key regions.
+
 Product Development: Prioritize popular genres and longer tracks for content creation.
+
 Business Intelligence: Support decision-making with comprehensive data on customer spending and artist contributions.
+
 Employee Management: Use employee data to identify senior roles for organizational planning.
 
 --Thank you--
